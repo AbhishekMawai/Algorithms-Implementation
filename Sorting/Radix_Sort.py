@@ -19,7 +19,7 @@ def countingsort(li, exp):
         li[i] = out[i]
 
 
-def redixsort(li):
+def radixsort(li):
     max1 = max(li)
     exp = 1
     while max1 // exp > 0:
@@ -28,4 +28,4 @@ def redixsort(li):
     print(li)
 
 
-redixsort(li)
+radixsort(li)
